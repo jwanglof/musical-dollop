@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+body,html {
+  font-family: sans-serif;
+}
+
+.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.users td, .users th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td:hover {
+  cursor: pointer;
+}
